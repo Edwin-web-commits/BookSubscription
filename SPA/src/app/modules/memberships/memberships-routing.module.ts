@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 
 import { RouterModule, Routes } from '@angular/router';
+import { AuthGuard } from '../auth/auth.guard';
 import { MembershipCheckoutComponent } from './membership-checkout/membership-checkout.component';
 import { MembershipFailureComponent } from './membership-failure/membership-failure.component';
 import { MembershipOptionsComponent } from './membership-options/membership-options.component';
@@ -12,6 +13,8 @@ const routes: Routes = [
   { path: 'success', component: MembershipSuccessComponent },
   { path: 'failure', component: MembershipFailureComponent },
 ];
+
+
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

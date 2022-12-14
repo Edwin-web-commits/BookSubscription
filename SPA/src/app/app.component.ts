@@ -10,7 +10,7 @@ import { IUser } from './modules/auth/IAuth';
 })
 export class AppComponent implements OnInit {
   helper = new JwtHelperService();
-  title = 'Stripe Course';
+  title = 'Book Subscription';
 
   constructor(private authService: AuthService) {}
 

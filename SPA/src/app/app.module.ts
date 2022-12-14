@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './core/header/header.component';
-import { CourseListComponent } from './pages/course-list/course-list.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { MembershipsModule } from './modules/memberships/memberships.module';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
@@ -21,7 +20,6 @@ import { NgProgressModule } from 'ngx-progressbar';
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    CourseListComponent,
     FooterComponent,
     PrivacyPolicyComponent,
     TermsComponent,

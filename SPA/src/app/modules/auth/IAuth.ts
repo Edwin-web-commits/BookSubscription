@@ -1,7 +1,8 @@
-export interface IAuth {}
+export class IAuth {}
 
-export interface IUser {
+export class IUser {
   username: string;
   email: string;
   isSubscriber: boolean;
+  isLoggedIn: boolean;
 }

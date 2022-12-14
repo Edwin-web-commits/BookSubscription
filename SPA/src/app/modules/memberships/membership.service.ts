@@ -16,13 +16,22 @@ export class MembershipService {
 
   getMembership(): Observable<IMemberShipPlan> {
     return of({
-      id: '',
-      priceId: 'Dont forget to add your price id ',
-      name: 'Awesome Membership Plan',
-      price: '$9.00',
+      id: 'prod_MyBZXVfDHqB76n',
+      priceId: 'price_1MEFCVKb1Vc3LvtZq7XyKCy0',
+      name: 'Book Subscription Plan',
+      price: 'R50.00',
       features: [
         'Up to 5 users',
-        'Basic support on Github',
+        'Monthly updates',
+        'Free cancelation',
+      ],
+    },{
+      id: 'prod_Myup1RUZeGv5Vu',
+      priceId: 'price_1MEwzXKb1Vc3LvtZqO5PC4IJ',
+      name: "You Don't Know JavaScript",
+      price: 'R45.00',
+      features: [
+        'Up to 5 users',
         'Monthly updates',
         'Free cancelation',
       ],

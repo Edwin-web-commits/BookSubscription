@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'https://localhost:5001/',
+  baseUrl: 'https://localhost:44353/',
   homeUrl: 'http://localhost:4200/home',
   successUrl: 'http://localhost:4200/success',
   cancelUrl: 'http://localhost:4200/failure',

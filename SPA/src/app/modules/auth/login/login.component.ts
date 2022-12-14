@@ -29,6 +29,7 @@ export class LoginComponent implements OnInit {
         setTimeout(() => {
           this.alertService.info(x.email);
         }, 4000);
+        
       },
       error: (err) => {
         console.log(err);

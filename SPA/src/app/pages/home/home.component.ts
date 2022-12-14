@@ -16,6 +16,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {}
 
   isLoggedIn(): boolean {
+    console.log(this.authService.currentUser.username != null ? true : false)
     return this.authService.currentUser.username != null ? true : false;
   }
 
@@ -24,6 +25,7 @@ export class HomeComponent implements OnInit {
   }
 
   isSubscriber(): boolean {
+    console.log("isSubscriber"+ this.authService.currentUser.isSubscriber)
     return this.authService.currentUser.isSubscriber;
   }
 }
